@@ -1,0 +1,46 @@
+section,question_name,wording,response,attention_key,critical_item,note
+0,consent1,I am a member of KNUST staff and I am 18 years or older.,Tick box (required). Unticked ends the survey,,yes,All five must be ticked
+0,consent2,I have read the information above and I understand what the survey involves.,Tick box (required). Unticked ends the survey,,yes,All five must be ticked
+0,consent3,I understand that taking part is voluntary and that I may stop at any time without giving a reason.,Tick box (required). Unticked ends the survey,,yes,All five must be ticked
+0,consent4,I understand that my answers are anonymous and will be reported only in summary form.,Tick box (required). Unticked ends the survey,,yes,All five must be ticked
+0,consent5,I agree to take part in this survey.,Tick box (required). Unticked ends the survey,,yes,All five must be ticked
+A,age_band,Your age,18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+,,yes,
+A,gender,Your gender,Female | Male | Non-binary | Prefer not to say,,no,
+A,staff_category,Your staff category,Academic | Administrative | Technical | Prefer not to say,,yes,
+A,tenure_band,Years you have worked at KNUST (round up to the next full year),1-5 | 6-10 | 11-15 | 16-20 | 21-25 | 26-30 | 31+,,yes,
+A,training_12m,"In the last 12 months, did you complete any IT security training at KNUST?",Yes | No | Not sure,,no,
+A,sim_exposure,Has KNUST ever sent you a test (simulated) phishing email?,Yes | No | Not sure,,yes,
+B,se1,I am confident in my ability to recognise a phishing email,1 (very low) | 2 | 3 | 4 | 5 | 6 | 7 (very high),,yes,
+B,se2,"I can recognise a phishing email, even if there was no one around to help me",1 (very low) | 2 | 3 | 4 | 5 | 6 | 7 (very high),,yes,
+B,se3,I can distinguish a malicious from a legitimate URL,1 (very low) | 2 | 3 | 4 | 5 | 6 | 7 (very high),,yes,
+B,se4,I am sure which steps to follow to recognise a phishing email,1 (very low) | 2 | 3 | 4 | 5 | 6 | 7 (very high),,yes,
+C,rp1,Phishing email attacks are harmful,1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,,no,
+C,rp2,The thought of falling victim to a phishing email attack scares me,1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,,no,
+C,rp3,"If I fall victim to a phishing attack, my daily work could be negatively affected",1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,,no,
+C,rp4,Having my computer infected by a virus as a result of falling for a phishing attack would be a serious problem for me,1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,,no,
+C,rp5,"To ensure you are paying attention, please select option 1 strongly disagree",1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,1,no,
+C,rp6,"Losing my personal information (login credentials, bank account details, etc.) after falling for a phishing email attack would be a serious problem for me",1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,,no,
+D,ob_self1,The risk that I get victimised by a phishing attack is,1 (very low) | 2 | 3 | 4 | 5 | 6 | 7 (very high),,yes,
+D,ob_self2,The likelihood that I will fall victim to a phishing attack in the next 12 months is,1 (very low) | 2 | 3 | 4 | 5 | 6 | 7 (very high),,yes,
+D,ob_peer1,"[New screen] Now, think of the average person of the same sex and age as you. The risk that the average person (of the same sex and age as you) gets victimised by a phishing attack is",1 (very low) | 2 | 3 | 4 | 5 | 6 | 7 (very high),,yes,
+D,ob_peer2,The likelihood that the average person (of the same sex and age as you) will fall victim to a phishing attack in the next 12 months is,1 (very low) | 2 | 3 | 4 | 5 | 6 | 7 (very high),,yes,
+E,lc_recall,Can you recall the last phishing email you received?,Yes | No,,yes,No skips to section F
+E,lc1,that reflects an aspect of yourself  <->  reflects an aspect of the situation,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,lc2,manageable by you  <->  not manageable by you,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,lc3,temporary  <->  permanent,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,lc4,you cannot regulate  <->  you can regulate,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,lc5,over which others have control  <->  over which others have no control,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,lc6,inside of you  <->  outside of you,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,att_lc,"To ensure you are paying attention, please select 7 (the right-hand end)",1 to 7,7,no,
+E,lc7,stable over time  <->  variable over time,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,lc8,not under the power of other people  <->  under the power of other people,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,lc9,something about you  <->  something about others,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,lc10,over which you have power  <->  over which you have no power,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,lc11,unchangeable  <->  changeable,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+E,lc12,other people can regulate  <->  other people cannot regulate,1 to 7 between the two phrases,,yes,Stem: Did you spot it or fall for it? The reason you spotted or fell for it is something ...
+F,ti1,I intend to talk with people in my surroundings about cybersecurity-related courses or trainings that I could follow,1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,,no,
+F,ti2,I intend to participate in a cybersecurity-related learning activity within the next year,1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,,no,
+F,ti3,I intend to look for information about cybersecurity-related courses and learning activities that I could participate in,1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,,no,
+F,att_ti,"To ensure you are paying attention, please select option 3 (somewhat disagree)",1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,3,no,
+F,ti4,Sometimes I think about following a cybersecurity-related training within the next year,1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,,no,
+F,ti5,I intend to talk with my executive about cybersecurity-related courses or trainings that I could follow,1 Strongly disagree | 2 Disagree | 3 Somewhat disagree | 4 Neither agree nor disagree | 5 Somewhat agree | 6 Agree | 7 Strongly agree,,no,"Possible local wording: ""my head of unit"". Use it only if your supervisor agrees, and log it in adaptation_log.md"

@@ -1,0 +1,22 @@
+# private letters, permissions and consent records
+00_admin/*
+!00_admin/README.md
+# raw and clean data never go to GitHub (scripts fetch the open data from Zenodo)
+03_data/raw/*
+!03_data/raw/.gitkeep
+03_data/clean/*
+!03_data/clean/.gitkeep
+03_data/rehearsal/*
+!03_data/rehearsal/.gitkeep
+# demo outputs are deleted before the real run
+05_results/**/REHEARSAL_*
+# keys, environments, caches
+.env
+*.key
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.Rhistory
+.DS_Store
